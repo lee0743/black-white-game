@@ -45,7 +45,8 @@ bool Player::SelectCard(size_t cardNum)
 {
 	assert(0 <= cardNum && cardNum < MAX_CARD_COUNT);
 	
-	if (mbCards[cardNum] == true) {
+	if (mbCards[cardNum] == true) 
+	{
 		mbCards[cardNum] = false;
 		--mRemainingCardCount;
 		
